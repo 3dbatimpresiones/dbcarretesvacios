@@ -371,6 +371,14 @@ function animateHeroStats() {
   const weights = SPOOLS.filter(s => s.weight !== null).map(s => s.weight);
   const minW = Math.min(...weights);
   const maxW = Math.max(...weights);
+  
+  // Actualizar Meta Tags dinámicamente
+  const dynamicDesc = `Consultá el peso de bobinas vacías de ${brandsCount}+ marcas. Calculá cuánto filamento te queda. Gratis para la comunidad maker.`;
+  const mDesc = $('meta[name="description"]');
+  if (mDesc) mDesc.setAttribute('content', dynamicDesc);
+  const mOg = $('meta[property="og:description"]');
+  if (mOg) mOg.setAttribute('content', dynamicDesc);
+
   const stats = [
     { el: $$('.hero-stat-val')[0], target: brandsCount },
     { el: $$('.hero-stat-val')[1], target: minW },
