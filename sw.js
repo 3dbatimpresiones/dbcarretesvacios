@@ -1,5 +1,5 @@
 // ===== 3DBAT Service Worker — Offline PWA =====
-const CACHE = '3dbat-carretes-v1';
+const CACHE = '3dbat-carretes-v2';
 const LOCAL_ASSETS = [
   './',
   './index.html',
