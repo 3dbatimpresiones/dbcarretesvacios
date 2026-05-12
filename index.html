@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peso de Carretes Vacios | 3DBAT</title>
+  <meta name="description"
+    content="Base de datos gratuita de pesos de carretes vacíos de filamento 3D por marca. Calculadora de filamento restante. Comunidad Makers 3DBAT.">
+  <meta property="og:title" content="⚖️ Peso de Carretes Vacíos | Makers 3DBAT">
+  <meta property="og:description"
+    content="Consultá el peso de bobinas vacías de 15+ marcas. Calculá cuánto filamento te queda. Gratis para la comunidad maker.">
+  <meta property="og:type" content="website">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#00F0FF">
+  <link rel="icon" href="favicon-final.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Scroll Progress -->
+  <div id="scroll-progress"></div>
+
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="#" class="nav-logo-link">
+        <span class="nav-title">Lista comunitaria de carretes vacios</span>
+      </a>
+      <div class="nav-social">
+        <a href="https://www.instagram.com/3dbat.impresiones/" target="_blank" class="nav-instagram"
+          aria-label="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+          <span>@3dbat.impresiones</span>
+        </a>
+        <a href="https://www.instagram.com/makers3dbat/" target="_blank" class="nav-instagram" aria-label="Instagram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+          </svg>
+          <span>@makers3dbat</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Update Banner -->
+  <div class="update-banner">
+    <div class="container">
+      <span id="last-update">Actualizado: --/--/---- · Herramienta gratuita para la comunidad maker 🧵</span>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="container">
+      <a href="https://www.instagram.com/3dbat.impresiones/" target="_blank" class="hero-logo-link">
+        <img src="Logo-header.png" alt="3DBAT Logo Oficial" class="hero-main-logo">
+      </a>
+      <div class="hero-badge">GRATIS PARA LA COMUNIDAD</div>
+      <h1>Peso de Carretes Vacíos</h1>
+      <p class="hero-sub">Base de datos comunitaria de bobinas vacías para impresión 3D. Buscá tu marca, calculá cuánto
+        filamento te queda.</p>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="hero-stat-val" data-value="15">0</div>
+          <div class="hero-stat-label">Marcas</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-val" data-value="111">0</div>
+          <div class="hero-stat-label">Más liviano (g)</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-val" data-value="374">0</div>
+          <div class="hero-stat-label">Más pesado (g)</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Search & Filters -->
+  <section class="search-section">
+    <div class="container">
+      <div class="search-bar">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8" />
+          <path d="m21 21-4.3-4.3" stroke-linecap="round" />
+        </svg>
+        <input type="text" id="search-input" placeholder="Buscar marca... (presioná / para enfocar)" autocomplete="off">
+      </div>
+      <div class="filters">
+        <button class="filter-chip active" data-filter="all">Todos</button>
+        <button class="filter-chip" data-filter="1kg">1 kg</button>
+        <button class="filter-chip" data-filter="2kg">2 kg</button>
+        <button class="filter-chip" data-filter="4kg">4 kg</button>
+        <button class="filter-chip" data-filter="plastico">Plástico</button>
+        <button class="filter-chip" data-filter="carton">Cartón</button>
+        <button class="filter-chip" data-filter="favoritos">❤️ Favoritos</button>
+      </div>
+      <div class="sort-bar">
+        <button class="sort-btn active" data-sort="weight-asc">Peso ↑</button>
+        <button class="sort-btn" data-sort="weight-desc">Peso ↓</button>
+        <button class="sort-btn" data-sort="name">A–Z</button>
+      </div>
+      <div class="action-bar">
+        <button class="nav-btn" id="btn-copy-all">📋 Copiar todo</button>
+        <button class="nav-btn" id="btn-share">📱 Compartir</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Spool Grid -->
+  <section>
+    <div class="container">
+      <div class="spool-grid" id="spool-grid"></div>
+    </div>
+  </section>
+
+  <!-- Calculator -->
+  <section class="calc-section" id="calculadora">
+    <div class="container">
+      <h2 class="section-title">⚖️ Calculadora de Filamento</h2>
+      <p class="section-sub">Pesá tu bobina en la balanza (con filamento incluido), ingresá el peso, elegí la marca, el
+        material. Y te decimos cuánto filamento te queda para tu próxima impresión.</p>
+      <div class="calc-card">
+        <div>
+          <label class="calc-label">Peso en balanza (gramos)</label>
+          <input type="number" class="calc-input" id="calc-weight" placeholder="Ej: 650" min="0">
+          <label class="calc-label">Marca del carrete</label>
+          <select class="calc-select" id="calc-brand"></select>
+          <label class="calc-label">Material del filamento</label>
+          <select class="calc-select" id="calc-material"></select>
+        </div>
+        <div class="calc-results">
+          <div class="calc-result">
+            <div class="calc-result-label">Filamento restante</div>
+            <div class="calc-result-value" id="calc-remaining">— g</div>
+          </div>
+          <div class="calc-result">
+            <div class="calc-result-label">Porcentaje de bobina</div>
+            <div class="calc-result-value" id="calc-percent">— %</div>
+            <div class="calc-progress-wrap">
+              <div class="calc-progress-bar"></div>
+            </div>
+          </div>
+          <div class="calc-result">
+            <div class="calc-result-label">Metros aproximados (1.75mm)</div>
+            <div class="calc-result-value" id="calc-meters">— m</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comparison -->
+  <section class="comp-section" id="comparativa">
+    <div class="container">
+      <h2 class="section-title">📊 Ranking de Pesos</h2>
+      <p class="section-sub">Explorá qué marcas son las más livianas de la base de datos.</p>
+      <div id="comp-grid" class="comp-grid"></div>
+    </div>
+  </section>
+
+  <!-- Comunidad y Salón de la Fama -->
+  <section class="hall-section" id="comunidad">
+    <div class="container">
+      <div class="community-header">
+        <h2 class="section-title">¿Falta tu marca en el listado?🤔</h2>
+        <h2 class="section-title">no te preocupes, podés sugerirla aportando a la comunidad
+          y figurar en el salon la fama🙌</h2>
+        <p class="section-sub">
+          hace click en el + y deja tu aporte de marca en el formulario!
+        </p>
+      </div>
+
+      <div id="hall-grid" class="hall-grid">
+        <!-- Se carga desde colaboradores.js -->
+        <a href="https://forms.gle/Pu5LAAwFHwJd8wb38" target="_blank" class="hall-card hall-invite">
+          <div class="hall-avatar">+</div>
+          <div class="hall-info">
+            <div class="hall-name">¿Tu nombre acá?</div>
+            <div class="hall-desc">Completar formulario</div>
+          </div>
+        </a>
+      </div>
+
+      <div class="community-footer">
+        <a href="https://chat.whatsapp.com/HWcG4nZh8JC15cTjpVim69" target="_blank" class="wpp-link">
+          📱 Unite a nuestra Comunidad en WhatsApp
+        </a>
+        <p class="community-note">Las sugerencias son revisadas por @3dbat.impresiones antes de publicarse.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-brand">
+        Datos cortesía de <a href="https://www.instagram.com/3dbat.impresiones/" target="_blank">@3dbat.impresiones</a>
+        y COMUNIDAD <a href="https://www.instagram.com/makers3dbat/" target="_blank">MAKERS 3DBAT</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <!-- QR Modal -->
+  <div class="qr-modal" id="qr-modal" style="display:none">
+    <div class="qr-modal-card">
+      <div class="qr-modal-header">
+        <div class="qr-modal-brand" id="qr-brand-name"></div>
+        <button class="qr-modal-close" onclick="closeQRModal()" aria-label="Cerrar">✕</button>
+      </div>
+      <div class="qr-modal-body">
+        <div class="qr-code-wrap">
+          <img id="qr-code-img" src="" alt="QR Code" class="qr-code-img">
+        </div>
+        <div class="qr-label-preview" id="qr-label-preview"></div>
+      </div>
+      <div class="qr-modal-footer">
+        <button class="qr-print-btn" onclick="printQRLabel()">🖨️ Imprimir etiqueta</button>
+        <button class="qr-close-btn" onclick="closeQRModal()">✕ Cerrar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="filamentos.js"></script>
+  <script src="colaboradores.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

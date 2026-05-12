@@ -1,0 +1,15 @@
+# Carpetas locales de trabajo
+backups/
+.gemini/
+
+# Archivo legacy (prototipo React, no usado en producción)
+filament_stock_manager_app.jsx
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+*.code-workspace
