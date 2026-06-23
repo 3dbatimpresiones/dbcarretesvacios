@@ -16,6 +16,7 @@ Grilon3   | Viejo            | 273       |         | 1000      | Plástico  | #4
 Creality  | Negra plastica   | 190       |         | 1000      | Plástico  | #4ECDC4  | https://http2.mlstatic.com/D_NQ_NP_966593-MLA71234191154_082023-O.webp  
 Grilon3   | 2.5KG            | 550       |         | 2000      | Plástico  | #4ECDC4  | https://acdn-us.mitiendanube.com/stores/004/109/334/products/petg_maxicarrete_blanco1-9d972ecc229d095e9617059331855926-1024-1024.webp
 GST       | Estándar         | 220       |         | 1000      | Plástico  | #45B7D1  | https://cdn.v2.tiendanegocio.com/gallery/42924/img_42924_dpku2covmdw0e1hr.jpeg?class=sm
+GST       | Lite             | 116       |         | 1000      | Plástico  | #45B7D1  | https://http2.mlstatic.com/D_NQ_NP_661209-MLA111606871689_052026-O.webp
 FilaAr    | Estándar         | 170       |         | 1000      | Plástico  | #96CEB4  | https://http2.mlstatic.com/D_NQ_NP_620879-MLA101287019468_122025-O.webp
 Printalot | Estándar         | 150       | 129-150 | 1000      | Plástico  | #FFD93D  | https://tp3d.com.ar/4888-large_default/filamento-printalot-pla-silk-175mm-1kg.jpg
 Hellbot   | ECOFILA viejo    | 117       |         | 1000      | Plástico  | #C084FC  | https://http2.mlstatic.com/D_NQ_NP_631895-MLA95837305787_102025-O.webp
