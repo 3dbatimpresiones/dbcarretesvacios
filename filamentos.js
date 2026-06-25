@@ -27,7 +27,7 @@ PlastAr   | Estándar         | 111       |         | 1000      | Plástico  | #
 IIIDMAX   | Estándar         | 140       |         | 1000      | Plástico  | #FCD34D  | https://http2.mlstatic.com/D_NQ_NP_899103-MLA100010735003_122025-O.webp
 ELEGOO    | Estándar         | 158       |         | 1000      | Plástico  | #60A5FA  | https://kimera3d.com.ar/wp-content/uploads/2025/11/FILAMENTO-ELEGOO-PLA-1.75mm-1KG-MARMOL.jpg
 Freemover | Estándar NACIONAL| 140       |         | 1000      | Plástico  | #34D399  | https://http2.mlstatic.com/D_NQ_NP_677046-MLU77965440354_082024-O.webp
-FILANOVA  | Plastico         | 155       |         | 1000      | Plástico  | #34D399  | https://chatgpt.com/backend-api/estuary/content?id=file_000000004fe0720eafbe3d05f4552d41&ts=495096&p=fs&cid=1&sig=91cc75177c243fabfb2613142c855e8330bbadf34d94cf7b4c1471135b42d8c2&v=0
+FILANOVA  | Plastico         | 155       |         | 1000      | Plástico  | #34D399  | https://proyectocolor.com.ar/wp-content/uploads/2026/02/3_4.png
 SUNLU     | Plástico         | 165       |         | 1000      | Plástico  | #FB7185  | https://http2.mlstatic.com/D_NQ_NP_715174-MLA80079336934_102024-O.webp
 ESUN      | Cartón           | 147       | 145-147 | 1000      | Cartón    | #A78BFA  | https://3dprintingservices.co.nz/wp-content/uploads/2020/12/Blue-PLA.webp
 ESUN      | Plástico         | 265       |         | 1000      | Plástico  | #A78BFA  | https://m.media-amazon.com/images/I/615c+YdfIML._AC_UF1000,1000_QL80_.jpg
