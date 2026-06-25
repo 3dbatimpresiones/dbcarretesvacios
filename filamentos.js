@@ -19,6 +19,7 @@ GST       | Estándar         | 220       |         | 1000      | Plástico  | #
 GST       | Lite             | 116       |         | 1000      | Plástico  | #45B7D1  | https://http2.mlstatic.com/D_NQ_NP_661209-MLA111606871689_052026-O.webp
 FilaAr    | Estándar         | 170       |         | 1000      | Plástico  | #96CEB4  | https://http2.mlstatic.com/D_NQ_NP_620879-MLA101287019468_122025-O.webp
 Printalot | Estándar         | 150       | 129-150 | 1000      | Plástico  | #FFD93D  | https://tp3d.com.ar/4888-large_default/filamento-printalot-pla-silk-175mm-1kg.jpg
+Printalot | Carton           | 145       |         | 1000      | Carton    | #FFD93D  | https://chatgpt.com/backend-api/estuary/public_content/enc/eyJpZCI6Im1fNmEzYzdiZGUxZDI4ODE5MWIwN2RlMTUwMjMzYjE1NmM6ZmlsZV8wMDAwMDAwMGIzM2M3MjBlYjcyYjUzZDA0MjAxZmJmZSIsInRzIjoiMjA2MjkiLCJwIjoicHlpIiwiY2lkIjoiMSIsInNpZyI6IjMxMmIxZDFkYTQ4NzQzYjMwYzg1OGEwZDJkZjQ5OGNjMzQxNzk3ZWMzMGIyNDllN2IwZGYzODcxZmE2ZGE0YTgiLCJ2IjoiMCIsImdpem1vX2lkIjpudWxsLCJjcyI6bnVsbCwiY2RuIjpudWxsLCJmbiI6bnVsbCwiY2QiOm51bGwsImNwIjpudWxsLCJtYSI6bnVsbH0=
 Hellbot   | ECOFILA viejo    | 117       |         | 1000      | Plástico  | #C084FC  | https://http2.mlstatic.com/D_NQ_NP_631895-MLA95837305787_102025-O.webp
 Hellbot   | ECOFILA (LOCK)   | 109       |         | 1000      | Plástico  | #C084FC  | https://http2.mlstatic.com/D_NQ_NP_958420-MLA95661490256_102025-O.webp
 Hellbot   | ECOFILA (ROMBOS) | 270       |         | 1000      | Plástico  | #C084FC  | https://http2.mlstatic.com/D_Q_NP_693405-MLA95959662043_102025-O.webp
@@ -26,6 +27,7 @@ PlastAr   | Estándar         | 111       |         | 1000      | Plástico  | #
 IIIDMAX   | Estándar         | 140       |         | 1000      | Plástico  | #FCD34D  | https://http2.mlstatic.com/D_NQ_NP_899103-MLA100010735003_122025-O.webp
 ELEGOO    | Estándar         | 158       |         | 1000      | Plástico  | #60A5FA  | https://kimera3d.com.ar/wp-content/uploads/2025/11/FILAMENTO-ELEGOO-PLA-1.75mm-1KG-MARMOL.jpg
 Freemover | Estándar NACIONAL| 140       |         | 1000      | Plástico  | #34D399  | https://http2.mlstatic.com/D_NQ_NP_677046-MLU77965440354_082024-O.webp
+FILANOVA  | Plastico         | 155       |         | 1000      | Plástico  | #34D399  | https://chatgpt.com/backend-api/estuary/content?id=file_000000004fe0720eafbe3d05f4552d41&ts=495096&p=fs&cid=1&sig=91cc75177c243fabfb2613142c855e8330bbadf34d94cf7b4c1471135b42d8c2&v=0
 SUNLU     | Plástico         | 165       |         | 1000      | Plástico  | #FB7185  | https://http2.mlstatic.com/D_NQ_NP_715174-MLA80079336934_102024-O.webp
 ESUN      | Cartón           | 147       | 145-147 | 1000      | Cartón    | #A78BFA  | https://3dprintingservices.co.nz/wp-content/uploads/2020/12/Blue-PLA.webp
 ESUN      | Plástico         | 265       |         | 1000      | Plástico  | #A78BFA  | https://m.media-amazon.com/images/I/615c+YdfIML._AC_UF1000,1000_QL80_.jpg
