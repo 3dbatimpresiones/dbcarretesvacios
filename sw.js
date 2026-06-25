@@ -37,7 +37,18 @@ self.addEventListener('fetch', e => {
     );
     return;
   }
-  // Local assets: cache first
+  // filamentos.js: network first para siempre mostrar datos actualizados
+  if (url.includes('filamentos.js')) {
+    e.respondWith(
+      fetch(e.request).then(resp => {
+        const clone = resp.clone();
+        caches.open(CACHE).then(c => c.put(e.request, clone));
+        return resp;
+      }).catch(() => caches.match(e.request))
+    );
+    return;
+  }
+  // Resto de assets locales: cache first
   e.respondWith(
     caches.match(e.request).then(cached => {
       if (cached) return cached;
