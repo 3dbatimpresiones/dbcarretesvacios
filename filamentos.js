@@ -11,6 +11,7 @@ const TEXTO_CARRETES = `
 Marca     | Variante         | PesoVacio | Rango   | Capacidad | Material  | ColorHex | ImagenURL
 ----------|------------------|-----------|---------|-----------|-----------|----------|----------
 3N3       | Estándar         | 182       |         | 1000      | Plástico  | #FF6B6B  | https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRixqDpCauIUbdHvMqjSp4mLyFaYRTSFsfBUu9zinW9K7nwJTckowPSge1f7DvoFCECzEg9MYbcdJpaPVInc_GVMgr08dilWool4Ob7Q8c5KUXKMo9IR8RD
+Bambulab  | Estándar         | 242       |         | 1000      | Plástico  | #FFD93D  | https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSUT3OLvoJwyOS0dYKpdbde64gw3tzqpyOjNRaNG8l99qwYXdYtlvRt1B6HHPxi1zEiAf__6-2vuRgJQW80FIiNZPrTU19C
 Grilon3   | Nuevo 2025       | 220       |         | 1000      | Plástico  | #4ECDC4  | https://electrovanguardia.com.ar/wp-content/uploads/2025/11/pla_turquesa2-600x600-1.jpg
 Grilon3   | Viejo            | 273       |         | 1000      | Plástico  | #4ECDC4  | https://http2.mlstatic.com/D_NQ_NP_663950-MLU72637599095_112023-O.webp
 Creality  | Negra plastica   | 190       |         | 1000      | Plástico  | #4ECDC4  | https://http2.mlstatic.com/D_NQ_NP_966593-MLA71234191154_082023-O.webp  
